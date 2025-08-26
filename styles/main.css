@@ -3,6 +3,19 @@
 
 /* fonts */
 @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Comfortaa:wght@300..700&display=swap');
+
+.comfortaa-<uniquifier> {
+  font-family: "Comfortaa", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+.caveat-<uniquifier> {
+  font-family: "Caveat", cursive;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
 /*  */
 
 :root {
@@ -541,6 +554,7 @@ a.active-link {
     padding: 350px 0;
 
 }
+
 
 
 
