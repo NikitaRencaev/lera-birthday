@@ -7,7 +7,7 @@
 
 :root {
     --font-accent: 'Caveat', sans-serif;
-    --font-base: 'Comfortaa', sans-serif;
+    --font-base: 'Comfortaa', cursive;
 }
 
 .container {
@@ -541,4 +541,5 @@ a.active-link {
     padding: 350px 0;
 
 }
+
 
