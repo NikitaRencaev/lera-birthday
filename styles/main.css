@@ -6,7 +6,6 @@
 /*  */
 
 :root {
-    --font-accent: 'Caveat', sans-serif;
     --font-base: 'Comfortaa', sans-serif;
 }
 
@@ -539,4 +538,5 @@ a.active-link {
     text-align: center;
 
     padding: 350px 0;
+
 }
