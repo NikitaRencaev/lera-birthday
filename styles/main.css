@@ -2,13 +2,7 @@
 @import url('./reset.css');
 
 /* fonts */
-@font-face {
-    font-family: 'Caveat', sans-serif;
-    src: url('./../fonts/Caveat/Caveat-VariableFont_wght.ttf');
-}
-@font-face {
-    font-family: 'Comfortaa', sans-serif;
-    src: url('./../fonts/Caveat/Caveat-VariableFont_wght.ttf');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Comfortaa:wght@300..700&display=swap');
 }
 /*  */
 
@@ -546,4 +540,5 @@ a.active-link {
     text-align: center;
 
     padding: 350px 0;
+
 }
