@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lera wishes</title>
+
+    <link rel="icon" href="./img/head-favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="./styles/main.css">
+    <script defer src="./js/jquery/main.js"></script>
+    <script defer src="./js/jquery/washesInput.js"></script>
+</head>
+<body>
+    <header class="header">
+        <nav class="header-nav">
+            <a href="./index.html">Главная</a>
+            <a href="./youWishes.html" class="active-link">Твои желания</a>
+            <a href="./youPhotos.html">Фото альбом</a>
+        </nav>
+    </header>
+
+    <main class="main-washes">
+        <div class="container">
+            <div class="form-washes">
+                <form class="washes">
+                    <div class="washes-money washes-block">
+                        <label for="money">Сколько ты хочешь зарабатывать в месяц?</label>
+                        <input type="number" placeholder="10000000руб" id="money">
+                        <p class="error error-money">серьезно, так мало? Давай серьезно</p>
+                    </div>
+
+                    <div class="washes-work washes-block">
+                        <label for="work">Кем ты хочешь стать в будущем?</label>
+                        <input type="text" placeholder="Не проституткой точно" id="work">
+                        <p class="error error-work">Лера, не шути, подумай -_-</p>
+                    </div>
+
+                    <div class="washes-life washes-block">
+                        <label for="life">Хочешь прожить 100лет?</label><br>
+                        <div id="life">
+                            <input type="radio" id="yes-life" value="yes" name="life">
+                            <label for="yes-life">Да</label>
+                            <input type="radio" id="no-life" value="no" name="life">
+                            <label for="no-life">Нет</label>
+                        </div>
+                        <p class="error error-life">Всмысле не  хочешь? Перехочешь блин</p>
+                    </div>
+
+                    <div class="washes-wedding washes-block">
+                        <label for="wedding">Во сколько лет хочешь выйти замуж?</label>
+                        <input type="number" id="wedding" placeholder="За меня го?  ;-;" name="wedding">
+                        <p class="error error-wedding">Ого, запрещаю</p>
+                    </div>
+
+                    <div class="washes-baby washes-block">
+                        <label for="baby-count">Сколько детей хочешь завести?</label>
+                        <input type="number" id="baby-count" placeholder="99 (я хочу от тебя)" name="baby">
+                        <p class="error error-baby">Ага, размечталась :|</p>
+                    </div>
+
+                    <div class="washes-studies washes-block">
+                        <label for="studies">На какие оценки хочешь закончить школу?</label>
+                        <input type="number" id="studies" placeholder="Ну нужно подумать..." name="studies">
+                        <p class="error error-baby">Печально, но думаю тебе нужно лучше учиться</p>
+                    </div>
+
+                    <div class="washes-im washes-block">
+                        <label for="im">Хочешь встретиться со мной в живую?</label>
+                        <div id="im">
+                            <input type="radio" id="yes-im" value="yes" name="im">
+                            <label for="yes-life">Да</label>
+                            <input type="radio" id="no-im" value="no" name="im">
+                            <label for="no-life">Нет</label>
+                        </div>
+                    </div>
+
+                    <div class="button">
+                        <button class="form-button btn">Готово</button>
+                        <p class="error error-full">Заполни каждое поле, Лера</p>
+                    </div>
+
+                    <p class="no-error">Супер! Теперь жди свой день рождения)</p>
+                </form>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <h1 class="footer-title happy-element">Отличного дня рождения!</h1>
+            <h1 class="footer-title no-happy-element">Ожидай свой день)</h1>
+        </div>
+    </footer>
+
+    <div class="podval-footer">
+        сайт одобрен органом проституции: "Л.Е.Б".
+    </div>
+</body>
+</html>
