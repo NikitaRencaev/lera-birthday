@@ -2,19 +2,6 @@
 @import url('./reset.css');
 
 /* fonts */
-
-.comfortaa-<uniquifier> {
-  font-family: "Comfortaa", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;
-}
-.caveat-<uniquifier> {
-  font-family: "Caveat", cursive;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;
-}
 /*  */
 
 :root {
@@ -553,6 +540,7 @@ a.active-link {
     padding: 350px 0;
 
 }
+
 
 
 
